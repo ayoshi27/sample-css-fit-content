@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【Sample】fit-content</title>
+    <link rel="stylesheet" href="/modern-css-reset.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <h1>fit-content</h1>
+    <section>
+        <h2>width: fit-content;</h2>
+        <div class="contents fit-content">
+            <h3>見出し要素</h3>
+            <h3>長さが違う見出し要素</h3>
+            <h3>長さが更に違う見出し要素</h3>
+        </div>
+    </section>
+    <section>
+        <h2>display: inline-block;</h2>
+        <div class="contents inline-block">
+            <h3>見出し要素</h3>
+        </div>
+        <div class="contents inline-block">
+            <h3>見出し要素</h3>
+            <h3>長さが違う見出し要素</h3>
+            <h3>長さが更に違う見出し要素</h3>
+        </div>
+    </section>
+    <section>
+        <h2>display: block;</h2>
+        <div class="contents block">
+            <h3>見出し要素</h3>
+            <h3>長さが違う見出し要素</h3>
+            <h3>長さが更に違う見出し要素</h3>
+            <h3 class="length12">見出し要素ごとに幅を指定</h3>
+        </div>
+    </section>
+</body>
+</html>
